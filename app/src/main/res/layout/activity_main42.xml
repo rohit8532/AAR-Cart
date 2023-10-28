@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-680dp">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="-160dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:text="  Product Details" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="62dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/white"
+                    android:src="@drawable/watch_3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Walrus WWTM-ELITE-XXII-010716 ELITE-XXII Analog Watch- For Men"
+                    android:layout_marginTop="-80dp"
+                    android:layout_marginLeft="120dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Rs. 326"
+                    android:layout_marginLeft="120dp"/>
+
+
+                <Button
+                    android:id="@+id/btndes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:textColor="@color/darkblue"
+                    android:backgroundTint="@color/white"
+                    android:layout_marginTop="50dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:layout_marginLeft="50dp"/>
+
+                <Button
+                    android:id="@+id/btnspec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/darkblue"
+                    android:backgroundTint="@color/white"
+                    android:text="Specifications"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="-48dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:text="Specifications"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:text="Key Features"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    -> Watch Movement: Quartz "
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    -> Display Type: Analog "
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    -> Strap: Silver"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="General"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Display Type: Analog"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Style Code: WWTM-ELITE-XXII-010716"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Series: ELITE-XXII"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Occasion: Casual"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Pack of: 1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Shock Package: 1 Watch and 1 Warranty Card"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Mechanism: Quartz"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Model Name: WWTM-ELITE-XXII-010716"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Strap Color: Silver"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Net Quantity: 1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="Body Features"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text=" Width: 50 mm"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Diameter: 50 mm"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Weight: 80 g"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="Warranty"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Domestic Warranty: 1 Year"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:text="Warranty Period: 12 months(1Year)"/>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">>
+
+
+        <Button
+            android:id="@+id/btnhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="0dp"/>
+
+
+        <Button
+            android:id="@+id/btnexit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="100dp"
+            />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
